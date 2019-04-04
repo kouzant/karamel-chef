@@ -14,3 +14,7 @@ LAUNCH_BROWSER=false                                      # If set to true will 
 OS=<%= node['platform'] %>
 ELASTIC_API=<%= @elastic_endpoint %>
 MYSQL_SOCKET=/tmp/mysql.sock
+
+RSPEC_SSH_USER=vagrant                              # The user on the remote machine.
+RSPEC_SSH_PORT=22                                   # The port where the remote vagrant is.
+RSPEC_SSH_PASSWORD=vagrant
